@@ -11,7 +11,7 @@ Packer build command
         packer build windows.json
 
 
-environment variables
+environment variables ( Terraform && Packer )
 
         Linux
 
