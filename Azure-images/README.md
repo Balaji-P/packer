@@ -9,3 +9,22 @@ Packer file validate or not
 Packer build command
 
         packer build windows.json
+
+
+environment variables
+
+        Linux
+
+            export ARM_TENANT_ID=xxxxxxxxxxxxxxxxxxxxxxxxx
+            export ARM_SUBSCRIPTION_ID=xxxx-xxxx-xxxx-xxxx
+            export ARM_CLIENT_ID=xxxx-xxxx-xxxx-xxxx
+            export ARM_CLIENT_SECRET=xxxx-xxxx-xxxx-xxxx
+            
+            
+        Windows
+        
+            set ARM_TENANT_ID=xxxxxxxxxxxxxxxxxxxxxxxxx
+            set ARM_SUBSCRIPTION_ID=xxxx-xxxx-xxxx-xxxx
+            set ARM_CLIENT_ID=xxxx-xxxx-xxxx-xxxx
+            set ARM_CLIENT_SECRET=xxxx-xxxx-xxxx-xxxx
+        
